@@ -11,13 +11,25 @@
     color: #005B41;
 }
 
-.movies-container {
+.movies-container div {
+    max-width: 316px;
+}
+
+.movies-container-list {
     display: flex;
     padding: 1em 0;
     max-width: 100vw;
     overflow: auto;
 }
 
+.movies-container-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.movies-container div,
 .movies-container div img,
 .movies-container div h2,
 .movies-container div p {
