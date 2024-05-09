@@ -1,0 +1,34 @@
+.movie-card {
+    margin-right: 1em;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.movie-card img {
+    width: 300px;
+}
+
+.movie-card a {
+    margin-top: auto;
+    background-color: #005B41;
+    border: 2px solid #005B41;
+    color: #161616;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 1rem 0.5rem;
+    align-items: center;
+    transition: .4s;
+    text-align: center;
+}
+
+.movie-card a:hover {
+    color: #005B41;
+    background-color: transparent;
+}
+
+.movie-card svg {
+    color: #005B41;
+}
