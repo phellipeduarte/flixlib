@@ -8,16 +8,23 @@
     margin: 1rem 0;
 }
 
+.movie-info::before {
+    padding-top: 10rem;
+    position: absolute;
+    content: "";
+    width: 80vw;
+    top: 45vh;
+    background-color: #1c1d1f;
+}
+
 .movie-info {
     background-color: #1c1d1f;
     width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10rem;
-    position: absolute;
-    top: 45vh;
     z-index: -1;
+    padding-bottom: 3rem;
 }
 
 .tagline {
@@ -30,6 +37,7 @@
     font-size: 1.5rem;
 }
 
+.movie-info,
 .info,
 .info h2 {
     margin-bottom: 1rem;
