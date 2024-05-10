@@ -46,7 +46,7 @@ function Movie() {
                 <>
                     <MovieCard movie={movie} showLink={false} />
                     <div className="movie-info">
-                        <p className="tagline">"{movie.tagline}"</p>
+                        {movie.tagline && <p className="tagline">"{movie.tagline}"</p>}
                         <div className="info">
                             <h2>Gêneros</h2>
                             {movie.genres.map((genre) => <span>{genre.name}</span>)}
