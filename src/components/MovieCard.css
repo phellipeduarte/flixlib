@@ -1,4 +1,5 @@
 .movie-card {
+    max-width: 316px;
     margin-right: 1em;
     padding: .5rem;
     display: flex;
@@ -31,4 +32,10 @@
 
 .movie-card svg {
     color: #005B41;
+}
+
+.movie-card img,
+.movie-card h2,
+.movie-card p {
+    margin-bottom: 1rem;
 }

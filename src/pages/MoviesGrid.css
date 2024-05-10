@@ -11,10 +11,6 @@
     color: #005B41;
 }
 
-.movies-container div {
-    max-width: 316px;
-}
-
 .movies-container-list {
     display: flex;
     padding: 1em 0;
@@ -29,10 +25,7 @@
     margin: 0 auto;
 }
 
-.movies-container div,
-.movies-container div img,
-.movies-container div h2,
-.movies-container div p {
+.movies-container div {
     margin-bottom: 1rem;
 }
 
