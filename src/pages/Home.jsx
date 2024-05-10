@@ -44,10 +44,10 @@ function Home() {
 
     useEffect(() => {
 
-        const popularURL = `${moviesURL}popular?${apiKey}`
-        const bestURL = `${moviesURL}top_rated?${apiKey}`
-        const recentURL = `${moviesURL}now_playing?${apiKey}`
-        const upcomingURL = `${moviesURL}upcoming?${apiKey}`
+        const popularURL = `${moviesURL}popular?${apiKey}&language=pt-BR`
+        const bestURL = `${moviesURL}top_rated?${apiKey}&language=pt-BR`
+        const recentURL = `${moviesURL}now_playing?${apiKey}&language=pt-BR`
+        const upcomingURL = `${moviesURL}upcoming?${apiKey}&language=pt-BR`
 
         getPopularMovies(popularURL)
         getBestMovies(bestURL)
